@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Kevin's Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/browser.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyPortfolio
+  * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
+  * Updated: Aug 08 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid  position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Kevin's Portfolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <!-- <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+         <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Portfolio Section -->   <!-- Add filters for project methods -->
+    <section id="portfolio" class="portfolio section">
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="row align-items-center">
+            <div class="col-lg-7 portfolio-info">
+              <h3>Hey, I'm Kevin Folkes</h3>
+              <p>Welcome to my portfolio! Here, I showcase data analytics projects that solve real-world problems through innovative analysis and visualization. Explore my work to see how I turn raw data into actionable insights.</p>
+            </div>
+            <div class="col-lg-5 text-center text-lg-end">
+              <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-sql">SQL</li>
+                <li data-filter=".filter-pyhton">Python</li>
+                <li data-filter=".filter-tableau">Tableau</li>
+                <li data-filter=".filter-powerbi">Power BI</li>
+                <!--<li data-filter=".filter-excel">Excel</li>-->
+              </ul><!-- End Portfolio Filters -->
+            </div>
+          </div>
+
+          <!-- Add project to portfolio -->
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 1344px;">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sql" style="position: absolute; left: 0px; top: 0px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/SQL-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>SQL</h4>
+                  <p>US Household Income Data Cleaning</p>
+                  <div>
+                    <a href="assets/img/portfolio/SQL-1.jpg" title="Data is often messy, even when it seems clean. As an analyst, verifying and preparing data is essential before conducting any analysis or interpretation. In this project this skill is practiced by cleaning the US Household Income Data in MySQL."  data-gallery="portfolio-gallery-sql"  class="glightbox preview-link"  data-description='<a href="portfolio-details-us-household-income.html" target="_blank">View Project</a>'> <i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details-us-household-income.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pyhton" style="position: absolute; left: 440px; top: 0px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/python-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Python</h4>
+                  <p>T&T Crime Data Exploration & Forecasting</p>
+                  <div>
+                    <a href="assets/img/portfolio/Python-1.jpg" title="Trinidad & Tobago ranks among the countries with the highest homicide rates relative to its size. This prompted me to explore whether patterns exist in such seemingly unpredictable events. This project focuses on analyzing and forecasting crime trends in T&T—challenging the notion of unpredictability."  data-gallery="portfolio-gallery-python"  class="glightbox preview-link"  data-description='<a href="portfolio-details-t&t_crime.html" target="_blank">View Project</a>'> <i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details-t&t_crime_forecasting.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-tableau" style="position: absolute; left: 880px; top: 0px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Tableau-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Tableau</h4>
+                  <p>Sales Dashboard</p>
+                  <div>
+                    <a href="assets/img/portfolio/Tableau-1.jpg" title="
+                    This project involves creating an interactive sales dashboard to compare year-over-year trends in sales, profit, and quantity. The dashboard provides clear visualizations to identify patterns, assess performance, and support data-driven decisions." 
+                     data-gallery="portfolio-gallery-tableau"  class="glightbox preview-link"  data-description='<a href="portfolio-details sales dashboard.html" target="_blank">View Dashboard</a>'> <i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details sales dashboard.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-powerbi" style="position: absolute; left: 0px; top: 336px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/PB-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Power BI</h4>
+                  <p>Bixi - Montreal's Bike Sharing System Dashboard</p>
+                  <div>
+                    <a href="assets/img/portfolio/PB-1.jpg" title="This project showcases an interactive dashboard analyzing Montreal's BIXI bike-sharing data. It highlights key metrics such as membership usage, station performance and trip duration using Microsoft Power BI."  data-gallery="portfolio-gallery-powerbi"  class="glightbox preview-link"  data-description='<a href="https://app.powerbi.com/view?r=eyJrIjoiZTQzMGIzYWUtOGMyZC00OWM1LTkzYzAtODE5MWUyYmVlNDM4IiwidCI6IjBkZmIzY2I4LTJjYWUtNGU4MS1iNmFkLTI0M2JjMTZhM2EzYyJ9" target="_blank">View Project</a>'> <i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sql" style="position: absolute; left: 440px; top: 336px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/SQL-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>SQL</h4>
+                  <p> Walmart Exploratory Data Analysis</p>
+                  <div>
+                    <a href="assets/img/portfolio/SQL-2.jpg" title="Walmart, a global retail giant, serves millions of consumers annually. How do sales trends vary across its stores, and what external factors influence them? This project explores these questions through data analysis in MySQL."  data-gallery="portfolio-gallery-sql"  class="glightbox preview-link"  data-description='<a href="portfolio-details-walmart.html" target="_blank">View Project</a>'> <i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details-walmart.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pyhton" style="position: absolute; left: 880px; top: 336px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Python-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Python</h4>
+                  <p>Analysing User Behaviour on Instagram Using Python</p>
+                  <div>
+                    <a href="assets/img/portfolio/Python-2.jpg" title="In today's social media-driven world, Instagram stands out as a leading platform. But how do users behave statistically? This project analyzes sample data on Instagram user behavior using Python and MSSQL to uncover insights."  data-gallery="portfolio-gallery-python"  class="glightbox preview-link"  data-description='<a href="portfolio-details-instagram.html" target="_blank">View Project</a>'> <i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details-instagram.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-tableau" style="position: absolute; left: 0px; top: 672px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/tableau-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Tableau</h4>
+                  <p>Customer Subscription Dashboard</p>
+                  <div>
+                    <a href="assets/img/portfolio/tableau-2.jpg" title="This project uses Tableau to visualize customer subscription data, including subscriber status (active, new, churned), revenue, and contact volume. The dashboard provides insights into customer lifecycle trends, financial performance, and customer service interactions, helping to drive strategic decisions."
+                      data-gallery="portfolio-gallery-tableau"  class="glightbox preview-link"  data-description='<a href="portfolio-details customer-subscription dashboard.html" target="_blank">View Dasboard</a>'> <i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details customer-subscription dashboard.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-tableau" style="position: absolute; left: 440px; top: 672px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Tableau-4.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Tableau</h4>
+                  <p>Superstore Sales Dashboard</p>
+                  <div>
+                    <a href="assets/img/portfolio/Tableau-4.jpg" title="
+                    This project involves creating a Superstore Sales Dashboard that visualizes sales data by category, state, product, and month, along with order trends by category. The dashboard provides valuable insights into sales performance, enabling better decision-making and targeted business improvements."
+                      data-gallery="portfolio-gallery-tableau"  class="glightbox preview-link"  data-description='<a href="portfolio-details super store sales dashboard.html" target="_blank">View Dashboard</a>'> <i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details super store sales dashboard.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sql" style="position: absolute; left: 880px; top: 672px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/SQL-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>SQL</h4>
+                  <p>Covid-19 Data Exploration</p>
+                  <div>
+                  
+                    <a href="assets/img/portfolio/SQL-3.jpg" title="The coronavirus disease impacted our lives in so many different ways. In this project I explored the impact on both deaths and vaccinations by countries. Sometimes specifically looking at my own (Trinidad & Tobago)." 
+                    data-gallery="portfolio-gallery-sql"  class="glightbox preview-link"  data-description='<a href="portfolio-details-covid-19.html" target="_blank">View Project</a>'> <i class="bi bi-zoom-in"></i></a>
+                    
+                    <a href="portfolio-details-covid-19.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pyhton" style="position: absolute; left: 0px; top: 1008px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Python-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Python</h4>
+                  <p>Web Scraping with BeautifulSoup</p>
+                  <div>
+                    <a href="assets/img/portfolio/Python-3.jpg" title="In the digital age, not all data is readily accessible. This project uses Python and Beautiful Soup to extract and analyze information from websites, demonstrating how to turn raw HTML into actionable insights"  data-gallery="portfolio-gallery-python"  class="glightbox preview-link"  data-description='<a href="portfolio-details-web_scraping.html" target="_blank">View Project</a>'> <i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details-web_scraping.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-tableau" style="position: absolute; left: 440px; top: 1008px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/Tableau-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Tableau</h4>
+                  <p>HR Analytics Dashboard</p>
+                  <div>
+                    <a href="assets/img/portfolio/Tableau-3.jpg" title="This project focuses on HR analytics, with a primary emphasis on employee attrition. It analyzes key factors influencing turnover, such as employee demographics, job satisfaction to identify trends and develop strategies for improving retention."
+                      data-gallery="portfolio-gallery-tableau"  class="glightbox preview-link"  data-description='<a href="portfolio-details hr analytics.html" target="_blank">View Dasboard</a>'> <i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details hr analytics.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sql" style="position: absolute; left: 880px; top: 1008px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/SQL-4.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>SQL</h4>
+                  <p>Nashville Housing Data Cleaning</p>
+                  <div>
+                    <a href="assets/img/portfolio/SQL-4.jpg" title="
+                    The Nashville housing market is dynamic, but raw data often requires preparation before analysis. This project focuses on cleaning and organizing Nashville housing data to ensure accuracy and usability for further insights in MSSQL."  data-gallery="portfolio-gallery-sql"  class="glightbox preview-link"  data-description='<a href="portfolio-details-nashville.html" target="_blank">View Project</a>'> <i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details-nashville.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <!--<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-excel" style="position: absolute; left: 880px; top: 1008px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Excel</h4>
+                  <p>Lorem ipsum</p>
+                  <div>
+                    <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>--><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Tools</h2>
+        <p>Software and tools I've utilized in my professional journey.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-9.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-10.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-11.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Essential skills I have developed and refined to excel in data analytics.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-database-check"></i>
+              </div>
+              <h3>Data Cleaning and Preparation</h3>
+              <p>Expertise in transforming raw data into a clean, structured format, ensuring accuracy and consistency for reliable analysis.</p>
+              <!--<a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-->
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-search"></i>
+              </div>
+              <h3>Data Analysis:</h3>
+              <p>Skilled in examining data to uncover trends and insights, driving data-informed decisions through statistical and trend analysis.</p>
+              <!--<a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-->
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-graph-up-arrow"></i>
+              </div>
+              <h3>Data Visualization</h3>
+              <p>Proficient in creating clear, actionable visualizations that effectively communicate complex data insights to both technical and non-technical audiences.</p>
+              <!--<a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-->
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <h3>Programming</h3>
+              <p>Experienced in using programming languages like Python and R to manipulate, analyze, and automate data tasks efficiently.</p>
+              <!--<a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-->
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-database-fill-gear"></i>
+              </div>
+              <h3>Database Management</h3>
+              <p>Competent in managing and querying databases with SQL, ensuring effective data retrieval and integrity for analysis.</p>
+              <!--<a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-->
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <h3>Strategic Communication</h3>
+              <p>Adept at translating complex data insights into clear recommendations and presenting them effectively to stakeholders for informed decision-making.</p>
+              <!--<a href="service-details.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>-->
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Certifications</h2>
+        <p>Most significant certifications that highlight my expertise and demonstrate my continued improvement in data analysis include</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/Certificate_Google.jpg" class="testimonial-img" alt="">
+                <h3>Google Data Analytics</h3>
+                <h4>Google</h4>
+                <div class="stars">
+                  <!--<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>-->
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>The Google Data Analytics Certificate offers a robust introduction to data analysis, covering key areas such as data cleaning, statistical analysis, and visualization. It includes practical experience with tools like SQL and R, and emphasizes hands-on projects to apply learned skills to real-world scenarios. The program is designed to build a solid foundation for data-driven decision-making and problem-solving.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/MySQL.jpg" class="testimonial-img" alt="">
+                <h3>MySQL For Data Analytics</h3>
+                <h4>Analyst Builder</h4>
+                <div class="stars">
+                  <!--<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>-->
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span> Practical SQL skills through a full MySQL course, including data cleaning, exploratory data analysis, and working within real-world MySQL environments. The course covered staging and production databases, naming conventions, and other essential concepts.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/PY4Ejpg.jpg" class="testimonial-img" alt="">
+                <h3>Python for Everybody</h3>
+                <h4>University of Michigan</h4>
+                <div class="stars">
+                  <!--<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>-->
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span> Introduces programming with Python, covering fundamentals like data structures, web scraping, and database interaction. It focuses on practical skills and real-world applications, making it perfect for beginners seeking to build a solid Python foundation.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/Tableau.jpg" class="testimonial-img" alt="">
+                <h3>Tableau for Data Visualization</h3>
+                <h4>Analyst Builder</h4>
+                <div class="stars">
+                  <!--<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>-->
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Develop a thorough understanding of Tableau, from the basics to advanced concepts. The course is structured with hands-on exercises and real-world applications, ensuring you grasp the intricacies of Tableau's visualization capabilities effectively. The highlight of this course is the interactive projects, where you'll tackle real-world data visualization challenges, refining your skills and building a robust portfolio along the way. By the end of this Tableau for Data Visualization course, you will be ready to showcase your Tableau proficiency on your resume and apply your newfound skills proficiently in various professional settings.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/Python.jpg" class="testimonial-img" alt="">
+                <h3>Python for Data Analysis & Visualization</h3>
+                <h4>Udemy</h4>
+                <div class="stars">
+                  <!--<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>-->
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Teaches Python and key libraries for data analysis and visualization. It covers core Python3, data manipulation with NumPy and Pandas, and chart creation using Matplotlib, Seaborn, and Plotly Express. Utilizing Jupyter Notebooks, the course includes lectures, coding exercises, and real-world challenges, with lifetime access and downloadable resources for learners at all levels.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">MyPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <!-- <a href=""><i class="bi bi-twitter-x"></i></a>-->
+        <!-- <a href=""><i class="bi bi-facebook"></i></a>-->
+        <a href="https://https://github.com/Jessiah13/" target="_blank"><i class="bi bi-github" ></i></a>
+        <a href="https://www.linkedin.com/in/kevin-folkes-6753a6224/" target="_blank"><i class="bi bi-linkedin" ></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
