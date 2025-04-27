@@ -7794,15 +7794,15 @@
           <div class="jp-InputPrompt jp-InputArea-prompt">In</div>
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
-          <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># import libraries</span>
-          
-          <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> 
-          <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> 
-          <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-          <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
-          <span class="kn">import</span> <span class="nn">datetime</span> <span class="k">as</span> <span class="nn">dt</span> 
-          <span class="kn">import</span> <span class="nn">warnings</span>
-          </pre></div>
+      <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># import libraries</span>
+        
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> 
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> 
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="kn">import</span> <span class="nn">datetime</span> <span class="k">as</span> <span class="nn">dt</span> 
+<span class="kn">import</span> <span class="nn">warnings</span>
+        </pre></div>
           </div>
           </div>
           </div>
@@ -7815,13 +7815,13 @@
           <div class="jp-InputPrompt jp-InputArea-prompt">In</div>
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
-          <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># settings &amp; variables</span>
-          
-          <span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">'display.max_columns'</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
-          <span class="n">file</span> <span class="o">=</span> <span class="s1">'Customer_support_data.csv'</span>
-          
-          <span class="c1"># remove warnings</span>
-          <span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">'ignore'</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># settings &amp; variables</span>
+
+<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">'display.max_columns'</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+<span class="n">file</span> <span class="o">=</span> <span class="s1">'Customer_support_data.csv'</span>
+
+<span class="c1"># remove warnings</span>
+<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">'ignore'</span><span class="p">)</span>
           </pre></div>
           </div>
           </div>
@@ -7849,8 +7849,8 @@
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Read in the data as a data frame.</span>
           <span class="n">e_commerce_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
           
-          <span class="c1"># Review the first 10 rows of the data frame.</span>
-          <span class="n">e_commerce_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<span class="c1"># Review the first 10 rows of the data frame.</span>
+<span class="n">e_commerce_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -8035,7 +8035,7 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Review column info</span>
-          <span class="n">e_commerce_df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+<span class="n">e_commerce_df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -8089,7 +8089,7 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Check columns for null entires: </span>
-          <span class="n">e_commerce_df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">e_commerce_df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -8137,7 +8137,7 @@
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Checking how many unique values there are  per column:</span>
           
-          <span class="n">e_commerce_df</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span>
+<span class="n">e_commerce_df</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -8185,15 +8185,15 @@
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Get the value counts for each column in the list</span>
           
-          <span class="c1"># Create list with desired columns: </span>
-          <span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'category'</span><span class="p">,</span> <span class="s1">'Product_category'</span><span class="p">,</span><span class="s1">'Customer_City'</span><span class="p">,</span> <span class="p">]</span>
-          
-          <span class="c1"># Loop through each column and print the value count. </span>
-          <span class="k">for</span> <span class="n">column</span> <span class="ow">in</span> <span class="n">columns</span><span class="p">:</span> 
-              <span class="n">x</span> <span class="o">=</span>  <span class="n">e_commerce_df</span><span class="p">[</span><span class="n">column</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
-              <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'-------------------</span><span class="si">{</span><span class="n">column</span><span class="si">}</span><span class="s1">--------------------'</span><span class="p">)</span>
-              <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'-------------------</span><span class="si">{</span><span class="n">e_commerce_df</span><span class="p">[</span><span class="n">column</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="si">}</span><span class="s1">-------------------'</span><span class="p">)</span>
-              <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="c1"># Create list with desired columns: </span>
+<span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'category'</span><span class="p">,</span> <span class="s1">'Product_category'</span><span class="p">,</span><span class="s1">'Customer_City'</span><span class="p">,</span> <span class="p">]</span>
+
+<span class="c1"># Loop through each column and print the value count. </span>
+<span class="k">for</span> <span class="n">column</span> <span class="ow">in</span> <span class="n">columns</span><span class="p">:</span> 
+    <span class="n">x</span> <span class="o">=</span>  <span class="n">e_commerce_df</span><span class="p">[</span><span class="n">column</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'-------------------</span><span class="si">{</span><span class="n">column</span><span class="si">}</span><span class="s1">--------------------'</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'-------------------</span><span class="si">{</span><span class="n">e_commerce_df</span><span class="p">[</span><span class="n">column</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="si">}</span><span class="s1">-------------------'</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
           </pre></div>
           </div>
           </div>
@@ -8354,15 +8354,15 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># copy df </span>
-          <span class="n">e_commerce_standard_df</span> <span class="o">=</span> <span class="n">e_commerce_df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-          
-          <span class="c1"># Standardize column names.</span>
-          
-          <span class="c1"># place all column names in lower case</span>
-          <span class="n">col_name_list</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
-          
-          <span class="c1"># replace all spaces and hyphens with underscores in the column names</span>
-          <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">col_name_list</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="sa">r</span><span class="s1">'[ /-]'</span><span class="p">,</span> <span class="s1">'_'</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">e_commerce_standard_df</span> <span class="o">=</span> <span class="n">e_commerce_df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+
+<span class="c1"># Standardize column names.</span>
+
+<span class="c1"># place all column names in lower case</span>
+<span class="n">col_name_list</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+
+<span class="c1"># replace all spaces and hyphens with underscores in the column names</span>
+<span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="n">col_name_list</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="sa">r</span><span class="s1">'[ /-]'</span><span class="p">,</span> <span class="s1">'_'</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
           </pre></div>
           </div>
           </div>
@@ -8378,19 +8378,19 @@
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># format date columns to the be recognized at dates in pandas: </span>
           
-          <span class="c1"># Create list with date columns</span>
-          <span class="n">date_columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'order_date_time'</span><span class="p">,</span> <span class="s1">'issue_reported_at'</span><span class="p">,</span> <span class="s1">'issue_responded'</span><span class="p">,</span> <span class="s1">'survey_response_date'</span><span class="p">]</span>
-          
-          <span class="c1"># Loop through each column and format them to a date object: </span>
-          <span class="k">for</span> <span class="n">date_col</span> <span class="ow">in</span> <span class="n">date_columns</span><span class="p">:</span> 
-          
-              <span class="c1"># survey_response_date is the only date column without time,</span>
-              <span class="c1"># therefore, if the columns in the list is not equal to 'survey_response_date', formate to date and time, else just date.</span>
-              <span class="k">if</span> <span class="n">date_col</span> <span class="o">!=</span> <span class="s1">'survey_response_date'</span><span class="p">:</span>
-                  <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">date_col</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">date_col</span><span class="p">],</span> <span class="n">dayfirst</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-              <span class="k">else</span><span class="p">:</span>
-                  <span class="c1"># Else, formate to date only</span>
-                  <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">date_col</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">date_col</span><span class="p">])</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">date</span>
+<span class="c1"># Create list with date columns</span>
+<span class="n">date_columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'order_date_time'</span><span class="p">,</span> <span class="s1">'issue_reported_at'</span><span class="p">,</span> <span class="s1">'issue_responded'</span><span class="p">,</span> <span class="s1">'survey_response_date'</span><span class="p">]</span>
+
+<span class="c1"># Loop through each column and format them to a date object: </span>
+<span class="k">for</span> <span class="n">date_col</span> <span class="ow">in</span> <span class="n">date_columns</span><span class="p">:</span> 
+
+    <span class="c1"># survey_response_date is the only date column without time,</span>
+    <span class="c1"># therefore, if the columns in the list is not equal to 'survey_response_date', formate to date and time, else just date.</span>
+    <span class="k">if</span> <span class="n">date_col</span> <span class="o">!=</span> <span class="s1">'survey_response_date'</span><span class="p">:</span>
+        <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">date_col</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">date_col</span><span class="p">],</span> <span class="n">dayfirst</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># Else, formate to date only</span>
+        <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">date_col</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">date_col</span><span class="p">])</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">date</span>
           </pre></div>
           </div>
           </div>
@@ -8406,34 +8406,34 @@
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># derive additional columns from CSAT column</span>
           
-          <span class="c1"># create the CSAT column with satisfaction description</span>
-          <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'csat'</span><span class="p">]</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'csat_score'</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> 
-                                                                    <span class="s1">'Very Satisfied'</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">5</span> <span class="k">else</span>
-                                                                    <span class="s1">'Somewhat Satisfied'</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">4</span> <span class="k">else</span> 
-                                                                    <span class="s1">'Neutral'</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">3</span> <span class="k">else</span>
-                                                                    <span class="s1">'Somewhat Dissatisfied'</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">2</span> <span class="k">else</span> 
-                                                                    <span class="s1">'Very Dissatisfied'</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">1</span> <span class="k">else</span>
-                                                                    <span class="s1">'Unknown'</span><span class="p">)</span>
-          
-          <span class="c1"># create  the CSAT percentage columns: </span>
-          
-          <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'csat_score'</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> 
-                                                                    <span class="mi">1</span> <span class="o">*</span> <span class="mi">100</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">5</span> <span class="k">else</span>
-                                                                    <span class="mi">1</span> <span class="o">*</span> <span class="mi">100</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">4</span> <span class="k">else</span> 
-                                                                    <span class="mi">0</span> <span class="o">*</span> <span class="mi">100</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">3</span> <span class="k">else</span>
-                                                                    <span class="mi">0</span> <span class="o">*</span> <span class="mi">100</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">2</span> <span class="k">else</span> 
-                                                                    <span class="mi">0</span> <span class="o">*</span> <span class="mi">100</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">1</span> <span class="k">else</span>
-                                                                    <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-          
-          
-          <span class="c1"># create response time columns</span>
-          <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'issue_responded'</span><span class="p">]</span> <span class="o">-</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'issue_reported_at'</span><span class="p">])</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">total_seconds</span><span class="p">()</span><span class="o">/</span><span class="mi">60</span>
-          
-          <span class="c1"># create week column: </span>
-          <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'week_number'</span><span class="p">]</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'issue_reported_at'</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">isocalendar</span><span class="p">()</span><span class="o">.</span><span class="n">week</span>
-          
-          <span class="c1"># Review top 10: </span>
-          <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<span class="c1"># create the CSAT column with satisfaction description</span>
+<span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'csat'</span><span class="p">]</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'csat_score'</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> 
+                                                          <span class="s1">'Very Satisfied'</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">5</span> <span class="k">else</span>
+                                                          <span class="s1">'Somewhat Satisfied'</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">4</span> <span class="k">else</span> 
+                                                          <span class="s1">'Neutral'</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">3</span> <span class="k">else</span>
+                                                          <span class="s1">'Somewhat Dissatisfied'</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">2</span> <span class="k">else</span> 
+                                                          <span class="s1">'Very Dissatisfied'</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">1</span> <span class="k">else</span>
+                                                          <span class="s1">'Unknown'</span><span class="p">)</span>
+
+<span class="c1"># create  the CSAT percentage columns: </span>
+
+<span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'csat_score'</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> 
+                                                          <span class="mi">1</span> <span class="o">*</span> <span class="mi">100</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">5</span> <span class="k">else</span>
+                                                          <span class="mi">1</span> <span class="o">*</span> <span class="mi">100</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">4</span> <span class="k">else</span> 
+                                                          <span class="mi">0</span> <span class="o">*</span> <span class="mi">100</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">3</span> <span class="k">else</span>
+                                                          <span class="mi">0</span> <span class="o">*</span> <span class="mi">100</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">2</span> <span class="k">else</span> 
+                                                          <span class="mi">0</span> <span class="o">*</span> <span class="mi">100</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">1</span> <span class="k">else</span>
+                                                          <span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+
+
+<span class="c1"># create response time columns</span>
+<span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'issue_responded'</span><span class="p">]</span> <span class="o">-</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'issue_reported_at'</span><span class="p">])</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">total_seconds</span><span class="p">()</span><span class="o">/</span><span class="mi">60</span>
+
+<span class="c1"># create week column: </span>
+<span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'week_number'</span><span class="p">]</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'issue_reported_at'</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">isocalendar</span><span class="p">()</span><span class="o">.</span><span class="n">week</span>
+
+<span class="c1"># Review top 10: </span>
+<span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -8675,15 +8675,15 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># group the channels by week number and get the CSAT avg: </span>
-          <span class="n">csat_channel_grouped</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">e_commerce_standard_df</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s1">'week_number'</span><span class="p">],</span> <span class="n">values</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'channel_name'</span><span class="p">],</span> <span class="n">aggfunc</span><span class="o">=</span><span class="s1">'mean'</span><span class="p">)</span>
-          
-          <span class="c1"># Assign week_num as a column: </span>
-          <span class="n">csat_channel_grouped</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          
-          <span class="c1"># melt df so CSAT performance (csat_percent) is in its own column</span>
-          <span class="n">weekly_CSAT</span> <span class="o">=</span> <span class="n">csat_channel_grouped</span><span class="o">.</span><span class="n">melt</span><span class="p">(</span><span class="n">id_vars</span><span class="o">=</span><span class="s1">'week_number'</span><span class="p">,</span> 
-                                            <span class="n">var_name</span><span class="o">=</span><span class="s1">'channel_name'</span><span class="p">,</span> 
-                                            <span class="n">value_name</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
+<span class="n">csat_channel_grouped</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">e_commerce_standard_df</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s1">'week_number'</span><span class="p">],</span> <span class="n">values</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'channel_name'</span><span class="p">],</span> <span class="n">aggfunc</span><span class="o">=</span><span class="s1">'mean'</span><span class="p">)</span>
+
+<span class="c1"># Assign week_num as a column: </span>
+<span class="n">csat_channel_grouped</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># melt df so CSAT performance (csat_percent) is in its own column</span>
+<span class="n">weekly_CSAT</span> <span class="o">=</span> <span class="n">csat_channel_grouped</span><span class="o">.</span><span class="n">melt</span><span class="p">(</span><span class="n">id_vars</span><span class="o">=</span><span class="s1">'week_number'</span><span class="p">,</span> 
+                                  <span class="n">var_name</span><span class="o">=</span><span class="s1">'channel_name'</span><span class="p">,</span> 
+                                  <span class="n">value_name</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
           </pre></div>
           </div>
           </div>
@@ -8699,19 +8699,19 @@
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># plot df as a line chart: </span>
           
-          <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
-          <span class="n">sns</span><span class="o">.</span><span class="n">lineplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">weekly_CSAT</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'week_number'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s1">'channel_name'</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">'o'</span><span class="p">)</span>
-          <span class="c1"># add target line</span>
-          <span class="n">CSAT_target</span> <span class="o">=</span> <span class="mi">85</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">axhline</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">CSAT_target</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'grey'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s2">"Target (</span><span class="si">{</span><span class="n">CSAT_target</span><span class="si">}</span><span class="s2">%)"</span><span class="p">)</span>
-          
-          <span class="c1"># add title and labels</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Weekly CSAT % by Channel'</span><span class="p">)</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Week Number'</span><span class="p">)</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'CSAT Percentage'</span><span class="p">)</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">'Channel'</span><span class="p">)</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">lineplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">weekly_CSAT</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'week_number'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s1">'channel_name'</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">'o'</span><span class="p">)</span>
+<span class="c1"># add target line</span>
+<span class="n">CSAT_target</span> <span class="o">=</span> <span class="mi">85</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axhline</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">CSAT_target</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'grey'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s2">"Target (</span><span class="si">{</span><span class="n">CSAT_target</span><span class="si">}</span><span class="s2">%)"</span><span class="p">)</span>
+
+<span class="c1"># add title and labels</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Weekly CSAT % by Channel'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Week Number'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'CSAT Percentage'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">'Channel'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -8786,21 +8786,21 @@
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Which channel is struggling with CSAT the most: </span>
           
-          <span class="c1"># group &amp; sort df by channel</span>
-          <span class="n">group_by_channel</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'channel_name'</span><span class="p">)[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
-          <span class="n">group_by_channel</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'channel_name'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          
-          <span class="c1">#plot results</span>
-          
-          <span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">group_by_channel</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'channel_name'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
-          
-          <span class="c1"># plot labels </span>
-          <span class="k">for</span> <span class="n">container</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">:</span>
-              <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%.0f</span><span class="s1">'</span><span class="p">)</span>
-          
-          <span class="c1"># show title and chart</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'CSAT by Channel'</span><span class="p">)</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="c1"># group &amp; sort df by channel</span>
+<span class="n">group_by_channel</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'channel_name'</span><span class="p">)[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">group_by_channel</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'channel_name'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1">#plot results</span>
+
+<span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">group_by_channel</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'channel_name'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
+
+<span class="c1"># plot labels </span>
+<span class="k">for</span> <span class="n">container</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">:</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%.0f</span><span class="s1">'</span><span class="p">)</span>
+
+<span class="c1"># show title and chart</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'CSAT by Channel'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -8863,18 +8863,18 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># filter out top-boxes CSAT (very and somewhat satisfied)</span>
-          <span class="n">dsat</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
-          
-          <span class="c1"># group by category.</span>
-          <span class="n">dsat_group_by_category</span> <span class="o">=</span> <span class="n">dsat</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'category'</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
-          
-          <span class="c1"># sort the values in descending order.</span>
-          <span class="n">dsat_group_by_category</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          
-          <span class="c1"># create the cumulative column</span>
-          <span class="n">dsat_group_by_category</span><span class="p">[</span><span class="s1">'cumulative'</span><span class="p">]</span> <span class="o">=</span> <span class="n">dsat_group_by_category</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span><span class="o">/</span> <span class="n">dsat_group_by_category</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span>
-          <span class="n">dsat_group_by_category</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          </pre></div>
+<span class="n">dsat</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span>
+
+<span class="c1"># group by category.</span>
+<span class="n">dsat_group_by_category</span> <span class="o">=</span> <span class="n">dsat</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'category'</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+
+<span class="c1"># sort the values in descending order.</span>
+<span class="n">dsat_group_by_category</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># create the cumulative column</span>
+<span class="n">dsat_group_by_category</span><span class="p">[</span><span class="s1">'cumulative'</span><span class="p">]</span> <span class="o">=</span> <span class="n">dsat_group_by_category</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span><span class="o">/</span> <span class="n">dsat_group_by_category</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span>
+<span class="n">dsat_group_by_category</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
           </div>
           </div>
           </div>
@@ -9012,20 +9012,20 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># plot pareto </span>
-          <span class="n">fig</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
-          <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">dsat_group_by_category</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'category'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
-          <span class="n">ax1</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">ax1</span><span class="o">.</span><span class="n">containers</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%d</span><span class="s1">'</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
-          <span class="n">ax1</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">(</span><span class="n">dsat_group_by_category</span><span class="p">[</span><span class="s1">'category'</span><span class="p">],</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s1">'right'</span><span class="p">)</span>
-          
-          <span class="c1"># secondary axis, plot frequency line</span>
-          <span class="n">ax2</span> <span class="o">=</span> <span class="n">ax1</span><span class="o">.</span><span class="n">twinx</span><span class="p">()</span>
-          <span class="n">ax2</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">dsat_group_by_category</span><span class="p">[</span><span class="s1">'category'</span><span class="p">],</span> <span class="n">dsat_group_by_category</span><span class="p">[</span><span class="s1">'cumulative'</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">'o'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'dashed'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Cumulative %'</span><span class="p">)</span>
-          <span class="n">ax2</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">'Cumulative Percentage'</span><span class="p">)</span>
-          
-          <span class="c1"># Add Threshold Line (80% Pareto Principle)</span>
-          <span class="n">ax2</span><span class="o">.</span><span class="n">axhline</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="mi">80</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'gray'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'dotted'</span><span class="p">)</span>
-          
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">dsat_group_by_category</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'category'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">ax1</span><span class="o">.</span><span class="n">containers</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%d</span><span class="s1">'</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">(</span><span class="n">dsat_group_by_category</span><span class="p">[</span><span class="s1">'category'</span><span class="p">],</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s1">'right'</span><span class="p">)</span>
+
+<span class="c1"># secondary axis, plot frequency line</span>
+<span class="n">ax2</span> <span class="o">=</span> <span class="n">ax1</span><span class="o">.</span><span class="n">twinx</span><span class="p">()</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">dsat_group_by_category</span><span class="p">[</span><span class="s1">'category'</span><span class="p">],</span> <span class="n">dsat_group_by_category</span><span class="p">[</span><span class="s1">'cumulative'</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">'o'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'dashed'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Cumulative %'</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">'Cumulative Percentage'</span><span class="p">)</span>
+
+<span class="c1"># Add Threshold Line (80% Pareto Principle)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">axhline</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="mi">80</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'gray'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'dotted'</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -9089,14 +9089,14 @@
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># What are the top impacting sub categories? </span>
           
-          <span class="n">dsat_group_by_sub_category</span> <span class="o">=</span> <span class="n">dsat</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">'category'</span><span class="p">,</span><span class="s1">'sub_category'</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
-          
-          <span class="c1"># sort the values in descending order.</span>
-          <span class="n">dsat_group_by_sub_category</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          
-          <span class="c1"># create the cumulative column</span>
-          <span class="n">dsat_group_by_sub_category</span><span class="p">[</span><span class="s1">'cumulative'</span><span class="p">]</span> <span class="o">=</span> <span class="n">dsat_group_by_sub_category</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span><span class="o">/</span> <span class="n">dsat_group_by_sub_category</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span>
-          <span class="n">dsat_group_by_sub_category</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+  <span class="n">dsat_group_by_sub_category</span> <span class="o">=</span> <span class="n">dsat</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">'category'</span><span class="p">,</span><span class="s1">'sub_category'</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+  
+  <span class="c1"># sort the values in descending order.</span>
+  <span class="n">dsat_group_by_sub_category</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+  
+  <span class="c1"># create the cumulative column</span>
+  <span class="n">dsat_group_by_sub_category</span><span class="p">[</span><span class="s1">'cumulative'</span><span class="p">]</span> <span class="o">=</span> <span class="n">dsat_group_by_sub_category</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span><span class="o">/</span> <span class="n">dsat_group_by_sub_category</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span>
+  <span class="n">dsat_group_by_sub_category</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
           </pre></div>
           </div>
           </div>
@@ -9199,20 +9199,20 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># plot pareto </span>
-          <span class="n">fig</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="mi">12</span><span class="p">))</span>
-          <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">dsat_group_by_sub_category</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'sub_category'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
-          <span class="n">ax1</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">ax1</span><span class="o">.</span><span class="n">containers</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%d</span><span class="s1">'</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
-          <span class="n">ax1</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">(</span><span class="n">dsat_group_by_sub_category</span><span class="p">[</span><span class="s1">'sub_category'</span><span class="p">],</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s1">'right'</span><span class="p">)</span>
-          
-          <span class="c1"># secondary axis, plot frequency line</span>
-          <span class="n">ax2</span> <span class="o">=</span> <span class="n">ax1</span><span class="o">.</span><span class="n">twinx</span><span class="p">()</span>
-          <span class="n">ax2</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">dsat_group_by_sub_category</span><span class="p">[</span><span class="s1">'sub_category'</span><span class="p">],</span> <span class="n">dsat_group_by_sub_category</span><span class="p">[</span><span class="s1">'cumulative'</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'dashed'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Cumulative %'</span><span class="p">)</span>
-          <span class="n">ax2</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">'Cumulative Percentage'</span><span class="p">)</span>
-          
-          <span class="c1"># Add Threshold Line (80% Pareto Principle)</span>
-          <span class="n">ax2</span><span class="o">.</span><span class="n">axhline</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="mi">80</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'gray'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'dotted'</span><span class="p">)</span>
-          
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="mi">12</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">dsat_group_by_sub_category</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'sub_category'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">ax1</span><span class="o">.</span><span class="n">containers</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%d</span><span class="s1">'</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">(</span><span class="n">dsat_group_by_sub_category</span><span class="p">[</span><span class="s1">'sub_category'</span><span class="p">],</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s1">'right'</span><span class="p">)</span>
+
+<span class="c1"># secondary axis, plot frequency line</span>
+<span class="n">ax2</span> <span class="o">=</span> <span class="n">ax1</span><span class="o">.</span><span class="n">twinx</span><span class="p">()</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">dsat_group_by_sub_category</span><span class="p">[</span><span class="s1">'sub_category'</span><span class="p">],</span> <span class="n">dsat_group_by_sub_category</span><span class="p">[</span><span class="s1">'cumulative'</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'dashed'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Cumulative %'</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">'Cumulative Percentage'</span><span class="p">)</span>
+
+<span class="c1"># Add Threshold Line (80% Pareto Principle)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">axhline</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="mi">80</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'gray'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'dotted'</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -9274,14 +9274,14 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># group by product category and CSAT percent: </span>
-          <span class="n">dsat_group_by_product_category</span> <span class="o">=</span> <span class="n">dsat</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">'product_category'</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
-          
-          <span class="c1"># sort the values in descending order.</span>
-          <span class="n">dsat_group_by_product_category</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          
-          <span class="c1"># create the cumulative column</span>
-          <span class="n">dsat_group_by_product_category</span><span class="p">[</span><span class="s1">'cumulative'</span><span class="p">]</span> <span class="o">=</span> <span class="n">dsat_group_by_product_category</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span><span class="o">/</span> <span class="n">dsat_group_by_product_category</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span>
-          <span class="n">dsat_group_by_product_category</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">dsat_group_by_product_category</span> <span class="o">=</span> <span class="n">dsat</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">'product_category'</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+
+<span class="c1"># sort the values in descending order.</span>
+<span class="n">dsat_group_by_product_category</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># create the cumulative column</span>
+<span class="n">dsat_group_by_product_category</span><span class="p">[</span><span class="s1">'cumulative'</span><span class="p">]</span> <span class="o">=</span> <span class="n">dsat_group_by_product_category</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span><span class="o">/</span> <span class="n">dsat_group_by_product_category</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span>
+<span class="n">dsat_group_by_product_category</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
           </pre></div>
           </div>
           </div>
@@ -9402,20 +9402,20 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># plot pareto </span>
-          <span class="n">fig</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="mi">12</span><span class="p">))</span>
-          <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">dsat_group_by_product_category</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'product_category'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
-          <span class="n">ax1</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">ax1</span><span class="o">.</span><span class="n">containers</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%d</span><span class="s1">'</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
-          <span class="n">ax1</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">(</span><span class="n">dsat_group_by_product_category</span><span class="p">[</span><span class="s1">'product_category'</span><span class="p">],</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s1">'right'</span><span class="p">)</span>
-          
-          <span class="c1"># secondary axis, plot frequency line</span>
-          <span class="n">ax2</span> <span class="o">=</span> <span class="n">ax1</span><span class="o">.</span><span class="n">twinx</span><span class="p">()</span>
-          <span class="n">ax2</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">dsat_group_by_product_category</span><span class="p">[</span><span class="s1">'product_category'</span><span class="p">],</span> <span class="n">dsat_group_by_product_category</span><span class="p">[</span><span class="s1">'cumulative'</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'dashed'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Cumulative %'</span><span class="p">)</span>
-          <span class="n">ax2</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">'Cumulative Percentage'</span><span class="p">)</span>
-          
-          <span class="c1"># Add Threshold Line (80% Pareto Principle)</span>
-          <span class="n">ax2</span><span class="o">.</span><span class="n">axhline</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="mi">80</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'gray'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'dotted'</span><span class="p">)</span>
-          
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="mi">12</span><span class="p">))</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">dsat_group_by_product_category</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'product_category'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">ax1</span><span class="o">.</span><span class="n">containers</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%d</span><span class="s1">'</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">(</span><span class="n">dsat_group_by_product_category</span><span class="p">[</span><span class="s1">'product_category'</span><span class="p">],</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">ha</span><span class="o">=</span><span class="s1">'right'</span><span class="p">)</span>
+
+<span class="c1"># secondary axis, plot frequency line</span>
+<span class="n">ax2</span> <span class="o">=</span> <span class="n">ax1</span><span class="o">.</span><span class="n">twinx</span><span class="p">()</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">dsat_group_by_product_category</span><span class="p">[</span><span class="s1">'product_category'</span><span class="p">],</span> <span class="n">dsat_group_by_product_category</span><span class="p">[</span><span class="s1">'cumulative'</span><span class="p">],</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'dashed'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'Cumulative %'</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">'Cumulative Percentage'</span><span class="p">)</span>
+
+<span class="c1"># Add Threshold Line (80% Pareto Principle)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">axhline</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="mi">80</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'gray'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'dotted'</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -9475,7 +9475,7 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Verify that related date columns are logical</span>
-          <span class="nb">len</span><span class="p">(</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">])</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">])</span>
           </pre></div>
           </div>
           </div>
@@ -9539,21 +9539,21 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># drop rows where the response time is negative (&lt;0):</span>
-          <span class="n">response_satisfaction</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">]</span>
-          
-          <span class="c1"># group response time by satisfaction:</span>
-          <span class="n">response_satisfaction_grouped</span> <span class="o">=</span> <span class="n">response_satisfaction</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'csat'</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
-          
-          <span class="c1"># change time into hours.</span>
-          <span class="n">response_satisfaction_grouped</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span> <span class="o">=</span> <span class="n">response_satisfaction_grouped</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">/</span><span class="mi">60</span>
-          
-          <span class="c1"># round time to 2 decimals.</span>
-          <span class="n">response_satisfaction_grouped</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">=</span> <span class="n">response_satisfaction_grouped</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-          <span class="n">response_satisfaction_grouped</span>
-          
-          <span class="c1"># print the average response time broken out by satisfaction level the overall average response time.</span>
-          <span class="c1">#print(response_satisfaction_grouped)</span>
-          <span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"AVG Response time: "</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">response_satisfaction_grouped</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()),</span><span class="mi">2</span><span class="p">,</span> <span class="s2">" hours."</span><span class="p">)</span>
+<span class="n">response_satisfaction</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">]</span>
+
+<span class="c1"># group response time by satisfaction:</span>
+<span class="n">response_satisfaction_grouped</span> <span class="o">=</span> <span class="n">response_satisfaction</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'csat'</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+
+<span class="c1"># change time into hours.</span>
+<span class="n">response_satisfaction_grouped</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span> <span class="o">=</span> <span class="n">response_satisfaction_grouped</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">/</span><span class="mi">60</span>
+
+<span class="c1"># round time to 2 decimals.</span>
+<span class="n">response_satisfaction_grouped</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">=</span> <span class="n">response_satisfaction_grouped</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">response_satisfaction_grouped</span>
+
+<span class="c1"># print the average response time broken out by satisfaction level the overall average response time.</span>
+<span class="c1">#print(response_satisfaction_grouped)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="s2">"AVG Response time: "</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">response_satisfaction_grouped</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()),</span><span class="mi">2</span><span class="p">,</span> <span class="s2">" hours."</span><span class="p">)</span>
           </pre></div>
           </div>
           </div>
@@ -9567,7 +9567,7 @@
           <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
           <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
           <pre>
-           AVG Response time:  4 2  hours.
+  AVG Response time:  4 2  hours.
           </pre>
           </div>
           </div>
@@ -9582,16 +9582,16 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># sort by response time</span>
-          <span class="n">response_satisfaction_grouped</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'response_time'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          
-          <span class="c1"># plot bar chart</span>
-          <span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">response_satisfaction_grouped</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'response_time'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat'</span><span class="p">)</span>
-          
-          <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%.1f</span><span class="s1">'</span><span class="p">)</span>
-          
-          <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Response Time by Customer Satisfaction'</span><span class="p">)</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Reponse Time (Hours)'</span><span class="p">)</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">response_satisfaction_grouped</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'response_time'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># plot bar chart</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">response_satisfaction_grouped</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'response_time'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat'</span><span class="p">)</span>
+
+<span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%.1f</span><span class="s1">'</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Response Time by Customer Satisfaction'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Reponse Time (Hours)'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -9642,12 +9642,12 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># We know that the email channel struggles most with CSAT from or prior charts, does response time play a role?</span>
-          <span class="n">channel_dsat</span> <span class="o">=</span> <span class="n">response_satisfaction</span><span class="p">[</span><span class="n">response_satisfaction</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">100</span><span class="p">]</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">'channel_name'</span><span class="p">,])[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
-          
-          <span class="c1"># convert the time to hours:</span>
-          <span class="n">channel_dsat</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span> <span class="o">=</span> <span class="n">channel_dsat</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">/</span><span class="mi">60</span>
-          
-          <span class="n">channel_dsat</span>
+<span class="n">channel_dsat</span> <span class="o">=</span> <span class="n">response_satisfaction</span><span class="p">[</span><span class="n">response_satisfaction</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">100</span><span class="p">]</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">'channel_name'</span><span class="p">,])[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+<span class="c1"># convert the time to hours:</span>
+<span class="n">channel_dsat</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span> <span class="o">=</span> <span class="n">channel_dsat</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">/</span><span class="mi">60</span>
+
+<span class="n">channel_dsat</span>
           </pre></div>
           </div>
           </div>
@@ -9714,13 +9714,13 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># plot bar chart</span>
-          <span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">channel_dsat</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'response_time'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'channel_name'</span><span class="p">)</span>
-          
-          <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%.1f</span><span class="s1">'</span><span class="p">)</span>
-          
-          <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">"Response Time by Channel for DSAT's"</span><span class="p">)</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Reponse Time (Hours)'</span><span class="p">)</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">channel_dsat</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'response_time'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'channel_name'</span><span class="p">)</span>
+
+<span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%.1f</span><span class="s1">'</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">"Response Time by Channel for DSAT's"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Reponse Time (Hours)'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -9758,10 +9758,10 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># group the df by csat score and channel name: </span>
-          <span class="n">csat_group_by_score</span> <span class="o">=</span> <span class="n">response_satisfaction</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">'channel_name'</span><span class="p">,</span><span class="s1">'csat_score'</span><span class="p">])[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
-          
-          <span class="c1"># change the response time to hours: </span>
-          <span class="n">csat_group_by_score</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span> <span class="o">=</span> <span class="n">csat_group_by_score</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">/</span><span class="mi">60</span>
+<span class="n">csat_group_by_score</span> <span class="o">=</span> <span class="n">response_satisfaction</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">'channel_name'</span><span class="p">,</span><span class="s1">'csat_score'</span><span class="p">])[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+
+<span class="c1"># change the response time to hours: </span>
+<span class="n">csat_group_by_score</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span> <span class="o">=</span> <span class="n">csat_group_by_score</span><span class="p">[</span><span class="s1">'response_time'</span><span class="p">]</span><span class="o">/</span><span class="mi">60</span>
           </pre></div>
           </div>
           </div>
@@ -9929,9 +9929,9 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># get the spearman correlation scores for each column relationships:</span>
-          <span class="n">csat_group_by_score_corr</span> <span class="o">=</span> <span class="n">csat_group_by_score</span><span class="o">.</span><span class="n">corr</span><span class="p">(</span><span class="n">numeric_only</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s1">'spearman'</span><span class="p">)</span>
-          
-          <span class="n">csat_group_by_score_corr</span>
+<span class="n">csat_group_by_score_corr</span> <span class="o">=</span> <span class="n">csat_group_by_score</span><span class="o">.</span><span class="n">corr</span><span class="p">(</span><span class="n">numeric_only</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="s1">'spearman'</span><span class="p">)</span>
+
+<span class="n">csat_group_by_score_corr</span>
           </pre></div>
           </div>
           </div>
@@ -9993,9 +9993,9 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Plot correlation with heatmap:</span>
-          <span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">csat_group_by_score_corr</span><span class="p">,</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">sns</span><span class="o">.</span><span class="n">dark_palette</span><span class="p">(</span><span class="s2">"#69d"</span><span class="p">,</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">as_cmap</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
-          
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">csat_group_by_score_corr</span><span class="p">,</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">sns</span><span class="o">.</span><span class="n">dark_palette</span><span class="p">(</span><span class="s2">"#69d"</span><span class="p">,</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">as_cmap</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -10051,15 +10051,15 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># assign rel plot to a variable:</span>
-          <span class="n">g</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">relplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">csat_group_by_score</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'csat_score'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'response_time'</span><span class="p">,</span> <span class="n">col</span><span class="o">=</span><span class="s1">'channel_name'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s1">'scatter'</span><span class="p">)</span>
-          
-          <span class="c1"># Loop through each facet and add regression line: </span>
-          <span class="k">for</span> <span class="n">ax</span> <span class="ow">in</span> <span class="n">g</span><span class="o">.</span><span class="n">axes</span><span class="o">.</span><span class="n">flat</span><span class="p">:</span> 
-              <span class="n">sns</span><span class="o">.</span><span class="n">regplot</span><span class="p">(</span><span class="n">csat_group_by_score</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'csat_score'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'response_time'</span><span class="p">,</span> <span class="n">scatter</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
-              <span class="n">ax</span><span class="o">.</span><span class="n">axhline</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">"grey"</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s2">"--"</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
-              <span class="n">ax</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">"grey"</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s2">"--"</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
-          <span class="c1"># display plots</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">g</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">relplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">csat_group_by_score</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'csat_score'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'response_time'</span><span class="p">,</span> <span class="n">col</span><span class="o">=</span><span class="s1">'channel_name'</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s1">'scatter'</span><span class="p">)</span>
+
+<span class="c1"># Loop through each facet and add regression line: </span>
+<span class="k">for</span> <span class="n">ax</span> <span class="ow">in</span> <span class="n">g</span><span class="o">.</span><span class="n">axes</span><span class="o">.</span><span class="n">flat</span><span class="p">:</span> 
+    <span class="n">sns</span><span class="o">.</span><span class="n">regplot</span><span class="p">(</span><span class="n">csat_group_by_score</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'csat_score'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'response_time'</span><span class="p">,</span> <span class="n">scatter</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">axhline</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">"grey"</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s2">"--"</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">"grey"</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s2">"--"</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="c1"># display plots</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -10123,8 +10123,8 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Checking how many records has handle time data:</span>
-          <span class="n">handle_time_df</span> <span class="o">=</span> <span class="n">response_satisfaction</span><span class="p">[</span><span class="n">response_satisfaction</span><span class="p">[</span><span class="s1">'connected_handling_time'</span><span class="p">]</span><span class="o">.</span><span class="n">notna</span><span class="p">()]</span>
-          <span class="nb">len</span><span class="p">(</span><span class="n">handle_time_df</span><span class="p">)</span>
+<span class="n">handle_time_df</span> <span class="o">=</span> <span class="n">response_satisfaction</span><span class="p">[</span><span class="n">response_satisfaction</span><span class="p">[</span><span class="s1">'connected_handling_time'</span><span class="p">]</span><span class="o">.</span><span class="n">notna</span><span class="p">()]</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">handle_time_df</span><span class="p">)</span>
           </pre></div>
           </div>
           </div>
@@ -10151,16 +10151,16 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># group by sub category and average handle time</span>
-          <span class="n">handle_time_grouped</span> <span class="o">=</span> <span class="n">handle_time_df</span><span class="p">[</span><span class="n">handle_time_df</span><span class="p">[</span><span class="s1">'csat_score'</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'sub_category'</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">'connected_handling_time'</span><span class="p">:</span> <span class="s1">'mean'</span><span class="p">,</span>
-                                                                                                                             <span class="s1">'unique_id'</span><span class="p">:</span> <span class="s1">'count'</span><span class="p">})</span>
-          
-          <span class="c1"># sort the df by average handle time</span>
-          <span class="n">handle_time_grouped</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'connected_handling_time'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          
-          <span class="c1"># Convert handle time to hours</span>
-          <span class="n">handle_time_grouped</span><span class="p">[</span><span class="s1">'connected_handling_time'</span><span class="p">]</span> <span class="o">=</span>  <span class="n">handle_time_grouped</span><span class="p">[</span><span class="s1">'connected_handling_time'</span><span class="p">]</span><span class="o">/</span><span class="mi">60</span>
-          
-          <span class="n">handle_time_grouped</span>
+<span class="n">handle_time_grouped</span> <span class="o">=</span> <span class="n">handle_time_df</span><span class="p">[</span><span class="n">handle_time_df</span><span class="p">[</span><span class="s1">'csat_score'</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'sub_category'</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">'connected_handling_time'</span><span class="p">:</span> <span class="s1">'mean'</span><span class="p">,</span>
+                                                                                                                    <span class="s1">'unique_id'</span><span class="p">:</span> <span class="s1">'count'</span><span class="p">})</span>
+
+<span class="c1"># sort the df by average handle time</span>
+<span class="n">handle_time_grouped</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'connected_handling_time'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># Convert handle time to hours</span>
+<span class="n">handle_time_grouped</span><span class="p">[</span><span class="s1">'connected_handling_time'</span><span class="p">]</span> <span class="o">=</span>  <span class="n">handle_time_grouped</span><span class="p">[</span><span class="s1">'connected_handling_time'</span><span class="p">]</span><span class="o">/</span><span class="mi">60</span>
+
+<span class="n">handle_time_grouped</span>
           </pre></div>
           </div>
           </div>
@@ -10313,9 +10313,9 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># group df by tenure bucket and get the CSAT %</span>
-          <span class="n">tenure_group</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'tenure_bucket'</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
-          
-          <span class="n">tenure_group</span>
+<span class="n">tenure_group</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'tenure_bucket'</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+
+<span class="n">tenure_group</span>
           </pre></div>
           </div>
           </div>
@@ -10403,18 +10403,18 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># sort data frame: </span>
-          <span class="n">tenure_group</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          
-          <span class="c1"># plot results</span>
-          <span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">tenure_group</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'tenure_bucket'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
-          
-          <span class="c1"># plot labels</span>
-          <span class="k">for</span> <span class="n">container</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">:</span>
-              <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">"</span><span class="si">%.0f</span><span class="s2">"</span><span class="p">)</span>
-          
-          <span class="c1"># show title and chart: </span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'CSAT by Tenure'</span><span class="p">)</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">tenure_group</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># plot results</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">tenure_group</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'tenure_bucket'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
+
+<span class="c1"># plot labels</span>
+<span class="k">for</span> <span class="n">container</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">:</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">"</span><span class="si">%.0f</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="c1"># show title and chart: </span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'CSAT by Tenure'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -10488,18 +10488,18 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># filter df where agent tenure is training.</span>
-          <span class="n">training_tenure_df</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'tenure_bucket'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'On Job Training'</span> <span class="p">]</span>
-          
-          <span class="c1"># group df by category and csat%.</span>
-          <span class="n">training_tenure_group</span> <span class="o">=</span> <span class="n">training_tenure_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span> <span class="s1">'category'</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">'csat_percent'</span><span class="p">:</span> <span class="s1">'mean'</span><span class="p">,</span> <span class="s1">'csat_score'</span><span class="p">:</span> <span class="s1">'count'</span><span class="p">})</span>
-          
-          <span class="c1"># sort df by csat % descending.</span>
-          <span class="n">training_tenure_group</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          
-          <span class="c1"># Rename column: </span>
-          <span class="n">training_tenure_group</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span> <span class="p">{</span><span class="s1">'csat_score'</span><span class="p">:</span> <span class="s1">'survey_count'</span><span class="p">},</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          
-          <span class="n">training_tenure_group</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">training_tenure_df</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'tenure_bucket'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'On Job Training'</span> <span class="p">]</span>
+
+<span class="c1"># group df by category and csat%.</span>
+<span class="n">training_tenure_group</span> <span class="o">=</span> <span class="n">training_tenure_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span> <span class="s1">'category'</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">'csat_percent'</span><span class="p">:</span> <span class="s1">'mean'</span><span class="p">,</span> <span class="s1">'csat_score'</span><span class="p">:</span> <span class="s1">'count'</span><span class="p">})</span>
+
+<span class="c1"># sort df by csat % descending.</span>
+<span class="n">training_tenure_group</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># Rename column: </span>
+<span class="n">training_tenure_group</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span> <span class="p">{</span><span class="s1">'csat_score'</span><span class="p">:</span> <span class="s1">'survey_count'</span><span class="p">},</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">training_tenure_group</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
           </pre></div>
           </div>
           </div>
@@ -10625,15 +10625,15 @@
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Plot results: </span>
           
-          <span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">training_tenure_group</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'category'</span><span class="p">)</span>
-          
-          <span class="c1">#plot labels</span>
-          <span class="k">for</span> <span class="n">container</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">:</span>
-              <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">"</span><span class="si">%.0f</span><span class="s2">"</span><span class="p">)</span>
-          
-          <span class="c1"># Show title and chart: </span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'CSAT by Category for On Job Training Tenure'</span><span class="p">)</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">training_tenure_group</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'category'</span><span class="p">)</span>
+
+<span class="c1">#plot labels</span>
+<span class="k">for</span> <span class="n">container</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">:</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">"</span><span class="si">%.0f</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="c1"># Show title and chart: </span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'CSAT by Category for On Job Training Tenure'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -10695,18 +10695,18 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># group df by tenure bucket and get the CSAT %</span>
-          <span class="n">shift_group</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">'agent_shift'</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">'csat_percent'</span><span class="p">:</span> <span class="s1">'mean'</span><span class="p">,</span> <span class="s1">'csat_score'</span><span class="p">:</span> <span class="s1">'count'</span><span class="p">})</span>
-          
-          
-          <span class="c1"># plot shift group: </span>
-          
-          <span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">shift_group</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'agent_shift'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
-          
-          <span class="c1"># plot labels: </span>
-          <span class="k">for</span> <span class="n">container</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">:</span>
-              <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%.0f</span><span class="s1">'</span><span class="p">)</span>
-              
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">shift_group</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">'agent_shift'</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">'csat_percent'</span><span class="p">:</span> <span class="s1">'mean'</span><span class="p">,</span> <span class="s1">'csat_score'</span><span class="p">:</span> <span class="s1">'count'</span><span class="p">})</span>
+
+
+<span class="c1"># plot shift group: </span>
+
+<span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">shift_group</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'agent_shift'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
+
+<span class="c1"># plot labels: </span>
+<span class="k">for</span> <span class="n">container</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">:</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%.0f</span><span class="s1">'</span><span class="p">)</span>
+    
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -10757,24 +10757,24 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># filter the shift df by split shift</span>
-          <span class="n">shift_group_split</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'agent_shift'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'Split'</span><span class="p">]</span>
-          
-          <span class="c1"># group the agent shift split df by manager: </span>
-          <span class="n">split_group</span> <span class="o">=</span> <span class="n">shift_group_split</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'manager'</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
-          
-          <span class="c1"># sort df by CSAT% </span>
-          <span class="n">split_group</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          <span class="n">split_group</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          
-          <span class="c1"># plot bar chart: </span>
-          
-          <span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">split_group</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'manager'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
-          
-          <span class="c1"># plot labels: </span>
-          <span class="k">for</span> <span class="n">container</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">:</span>
-              <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%.0f</span><span class="s1">'</span><span class="p">)</span>
-          
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="n">shift_group_split</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="n">e_commerce_standard_df</span><span class="p">[</span><span class="s1">'agent_shift'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'Split'</span><span class="p">]</span>
+
+<span class="c1"># group the agent shift split df by manager: </span>
+<span class="n">split_group</span> <span class="o">=</span> <span class="n">shift_group_split</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'manager'</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+
+<span class="c1"># sort df by CSAT% </span>
+<span class="n">split_group</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">split_group</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># plot bar chart: </span>
+
+<span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">split_group</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'manager'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
+
+<span class="c1"># plot labels: </span>
+<span class="k">for</span> <span class="n">container</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">:</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%.0f</span><span class="s1">'</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -10838,18 +10838,18 @@
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Managers: </span>
           
-          <span class="n">manager_df</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'manager'</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-          
-          <span class="c1"># plot bar chart: </span>
-          
-          <span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">manager_df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'manager'</span><span class="p">)</span>
-          
-          <span class="c1"># plot labels: </span>
-          <span class="k">for</span> <span class="n">container</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">:</span>
-              <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%.0f</span><span class="s1">'</span><span class="p">)</span>
-          
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-          </pre></div>
+<span class="n">manager_df</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'manager'</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="c1"># plot bar chart: </span>
+
+<span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">manager_df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'manager'</span><span class="p">)</span>
+
+<span class="c1"># plot labels: </span>
+<span class="k">for</span> <span class="n">container</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">:</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%.0f</span><span class="s1">'</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
           </div>
           </div>
           </div>
@@ -10903,27 +10903,27 @@
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Supervisors: </span>
           
-          <span class="c1"># group df by supervisors with csat% and survey_count.</span>
-          <span class="n">supervisor_df</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">'supervisor'</span> <span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">'csat_percent'</span><span class="p">:</span> <span class="s1">'mean'</span><span class="p">,</span> <span class="s1">'csat_score'</span><span class="p">:</span> <span class="s1">'count'</span><span class="p">})</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span>
-              <span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          
-          <span class="c1"># rename csat_score column to survey_count</span>
-          <span class="n">supervisor_df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'csat_score'</span><span class="p">:</span> <span class="s1">'survey_count'</span><span class="p">},</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          
-          
-          
-          <span class="c1"># plot bar chart: </span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
-          <span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">supervisor_df</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'supervisor'</span><span class="p">)</span>
-          
-          <span class="c1"># rotate x labels</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
-          
-          <span class="c1"># plot labels: </span>
-          <span class="k">for</span> <span class="n">container</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">:</span>
-              <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%.0f</span><span class="s1">'</span><span class="p">)</span>
-          
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="c1"># group df by supervisors with csat% and survey_count.</span>
+<span class="n">supervisor_df</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">'supervisor'</span> <span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">'csat_percent'</span><span class="p">:</span> <span class="s1">'mean'</span><span class="p">,</span> <span class="s1">'csat_score'</span><span class="p">:</span> <span class="s1">'count'</span><span class="p">})</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span>
+    <span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># rename csat_score column to survey_count</span>
+<span class="n">supervisor_df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'csat_score'</span><span class="p">:</span> <span class="s1">'survey_count'</span><span class="p">},</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+
+
+<span class="c1"># plot bar chart: </span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">supervisor_df</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'supervisor'</span><span class="p">)</span>
+
+<span class="c1"># rotate x labels</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
+
+<span class="c1"># plot labels: </span>
+<span class="k">for</span> <span class="n">container</span> <span class="ow">in</span> <span class="n">ax</span><span class="o">.</span><span class="n">containers</span><span class="p">:</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">bar_label</span><span class="p">(</span><span class="n">container</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s1">'</span><span class="si">%.0f</span><span class="s1">'</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -10951,32 +10951,32 @@
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Supervisors: </span>
           
-          <span class="c1"># Get the CSAT mean</span>
-          <span class="n">sup_mean_weighted</span> <span class="o">=</span> <span class="p">(</span><span class="n">supervisor_df</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">*</span> <span class="n">supervisor_df</span><span class="p">[</span><span class="s1">'survey_count'</span><span class="p">])</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">/</span> <span class="n">supervisor_df</span><span class="p">[</span><span class="s1">'survey_count'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-          <span class="c1"># Get the stdev for CSAT</span>
-          <span class="n">std_dev</span> <span class="o">=</span> <span class="n">supervisor_df</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">std</span><span class="p">()</span>
-          <span class="c1"># Assign the desired value for target.</span>
-          <span class="n">target</span> <span class="o">=</span> <span class="mi">85</span>
-          
-          <span class="c1"># plot figure</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
-          
-          <span class="c1"># plot histogram</span>
-          <span class="n">sns</span><span class="o">.</span><span class="n">histplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">supervisor_df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
-          <span class="c1"># add mean/average line</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">sup_mean_weighted</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'black'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s1">'Mean: </span><span class="si">{</span><span class="n">sup_mean_weighted</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
-          <span class="c1"># Add target line</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'green'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'-'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s1">'Target: </span><span class="si">{</span><span class="n">target</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
-          <span class="c1"># add +/- str_dev lines</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">sup_mean_weighted</span> <span class="o">+</span> <span class="n">std_dev</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s2">"+1 SD </span><span class="si">{</span><span class="p">(</span><span class="n">sup_mean_weighted</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">std_dev</span><span class="p">)</span><span class="si">:</span><span class="s2"> .2f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">sup_mean_weighted</span> <span class="o">-</span> <span class="n">std_dev</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s2">"+1 SD </span><span class="si">{</span><span class="p">(</span><span class="n">sup_mean_weighted</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">std_dev</span><span class="p">)</span><span class="si">:</span><span class="s2"> .2f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-          
-          <span class="c1"># add title</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Distribution of CSAT by Supervisor'</span><span class="p">)</span>
-          <span class="c1"># add legend</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
-          
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="c1"># Get the CSAT mean</span>
+<span class="n">sup_mean_weighted</span> <span class="o">=</span> <span class="p">(</span><span class="n">supervisor_df</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">*</span> <span class="n">supervisor_df</span><span class="p">[</span><span class="s1">'survey_count'</span><span class="p">])</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">/</span> <span class="n">supervisor_df</span><span class="p">[</span><span class="s1">'survey_count'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="c1"># Get the stdev for CSAT</span>
+<span class="n">std_dev</span> <span class="o">=</span> <span class="n">supervisor_df</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">std</span><span class="p">()</span>
+<span class="c1"># Assign the desired value for target.</span>
+<span class="n">target</span> <span class="o">=</span> <span class="mi">85</span>
+
+<span class="c1"># plot figure</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
+
+<span class="c1"># plot histogram</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">histplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">supervisor_df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">)</span>
+<span class="c1"># add mean/average line</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">sup_mean_weighted</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'black'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s1">'Mean: </span><span class="si">{</span><span class="n">sup_mean_weighted</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+<span class="c1"># Add target line</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'green'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'-'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s1">'Target: </span><span class="si">{</span><span class="n">target</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+<span class="c1"># add +/- str_dev lines</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">sup_mean_weighted</span> <span class="o">+</span> <span class="n">std_dev</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s2">"+1 SD </span><span class="si">{</span><span class="p">(</span><span class="n">sup_mean_weighted</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">std_dev</span><span class="p">)</span><span class="si">:</span><span class="s2"> .2f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">sup_mean_weighted</span> <span class="o">-</span> <span class="n">std_dev</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s2">"+1 SD </span><span class="si">{</span><span class="p">(</span><span class="n">sup_mean_weighted</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">std_dev</span><span class="p">)</span><span class="si">:</span><span class="s2"> .2f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="c1"># add title</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Distribution of CSAT by Supervisor'</span><span class="p">)</span>
+<span class="c1"># add legend</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -11004,7 +11004,7 @@
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Top performaners: </span>
           
-          <span class="n">supervisor_df</span><span class="p">[</span><span class="n">supervisor_df</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">sup_mean_weighted</span> <span class="o">+</span> <span class="n">std_dev</span><span class="p">]</span>
+<span class="n">supervisor_df</span><span class="p">[</span><span class="n">supervisor_df</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">sup_mean_weighted</span> <span class="o">+</span> <span class="n">std_dev</span><span class="p">]</span>
           </pre></div>
           </div>
           </div>
@@ -11064,7 +11064,7 @@
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Low Performaners: </span>
           
-          <span class="n">supervisor_df</span><span class="p">[</span><span class="n">supervisor_df</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">sup_mean_weighted</span> <span class="o">-</span> <span class="n">std_dev</span><span class="p">]</span>
+<span class="n">supervisor_df</span><span class="p">[</span><span class="n">supervisor_df</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">sup_mean_weighted</span> <span class="o">-</span> <span class="n">std_dev</span><span class="p">]</span>
           </pre></div>
           </div>
           </div>
@@ -11153,7 +11153,7 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Calculate the variance within the results for CSAT by supervisors</span>
-          <span class="nb">round</span><span class="p">((</span><span class="n">std_dev</span><span class="o">*</span><span class="mi">6</span><span class="p">)</span> <span class="o">/</span> <span class="n">sup_mean_weighted</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="nb">round</span><span class="p">((</span><span class="n">std_dev</span><span class="o">*</span><span class="mi">6</span><span class="p">)</span> <span class="o">/</span> <span class="n">sup_mean_weighted</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
           </pre></div>
           </div>
           </div>
@@ -11197,12 +11197,12 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># group df by Agent and get the CSAT %</span>
-          <span class="n">agent_group</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'agent_name'</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">'csat_percent'</span><span class="p">:</span> <span class="s1">'mean'</span><span class="p">,</span> 
-                                                                                         <span class="s1">'csat_score'</span><span class="p">:</span> <span class="s1">'count'</span>
-                                                                                         <span class="p">})</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          
-          <span class="n">agent_group</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'csat_score'</span><span class="p">:</span> <span class="s1">'survey_count'</span><span class="p">},</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-          <span class="n">agent_group</span>
+<span class="n">agent_group</span> <span class="o">=</span> <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'agent_name'</span><span class="p">,</span> <span class="n">as_index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">'csat_percent'</span><span class="p">:</span> <span class="s1">'mean'</span><span class="p">,</span> 
+                                                                                <span class="s1">'csat_score'</span><span class="p">:</span> <span class="s1">'count'</span>
+                                                                                <span class="p">})</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">agent_group</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'csat_score'</span><span class="p">:</span> <span class="s1">'survey_count'</span><span class="p">},</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">agent_group</span>
           </pre></div>
           </div>
           </div>
@@ -11334,32 +11334,32 @@
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Agents: </span>
           
-          <span class="c1"># get the CSAT mean </span>
-          <span class="n">agent_mean_weighted</span> <span class="o">=</span> <span class="p">(</span><span class="n">agent_group</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">*</span> <span class="n">agent_group</span><span class="p">[</span><span class="s1">'survey_count'</span><span class="p">])</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">/</span> <span class="n">agent_group</span><span class="p">[</span><span class="s1">'survey_count'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-          <span class="c1"># Get the standard deviation for CSAT</span>
-          <span class="n">std_dev_agent</span> <span class="o">=</span> <span class="n">agent_group</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">std</span><span class="p">()</span>
-          <span class="c1">#Assign a value for target</span>
-          <span class="n">target</span> <span class="o">=</span> <span class="mi">85</span>
-          
-          <span class="c1"># Plot figure</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
-          
-          <span class="c1"># plot histogram</span>
-          <span class="n">sns</span><span class="o">.</span><span class="n">histplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">agent_group</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
-          <span class="c1"># add mean line</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">agent_mean_weighted</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'black'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s1">'Mean: </span><span class="si">{</span><span class="n">agent_mean_weighted</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
-          <span class="c1"># add target line</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'green'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'-'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s1">'Target: </span><span class="si">{</span><span class="n">target</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
-          <span class="c1"># add +/- std_dev lines (upper and lower spec limits)</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">agent_mean_weighted</span> <span class="o">+</span> <span class="n">std_dev_agent</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s2">"+1 SD </span><span class="si">{</span><span class="p">(</span><span class="n">agent_mean_weighted</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">std_dev</span><span class="p">)</span><span class="si">:</span><span class="s2"> .2f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">agent_mean_weighted</span> <span class="o">-</span> <span class="n">std_dev_agent</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s2">"+1 SD </span><span class="si">{</span><span class="p">(</span><span class="n">agent_mean_weighted</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">std_dev</span><span class="p">)</span><span class="si">:</span><span class="s2"> .2f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-          
-          <span class="c1"># add title</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Distribution of CSAT by Agent'</span><span class="p">)</span>
-          <span class="c1"># add legend</span>
-          <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
-          
-          <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="c1"># get the CSAT mean </span>
+<span class="n">agent_mean_weighted</span> <span class="o">=</span> <span class="p">(</span><span class="n">agent_group</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">*</span> <span class="n">agent_group</span><span class="p">[</span><span class="s1">'survey_count'</span><span class="p">])</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="o">/</span> <span class="n">agent_group</span><span class="p">[</span><span class="s1">'survey_count'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="c1"># Get the standard deviation for CSAT</span>
+<span class="n">std_dev_agent</span> <span class="o">=</span> <span class="n">agent_group</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span><span class="o">.</span><span class="n">std</span><span class="p">()</span>
+<span class="c1">#Assign a value for target</span>
+<span class="n">target</span> <span class="o">=</span> <span class="mi">85</span>
+
+<span class="c1"># Plot figure</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
+
+<span class="c1"># plot histogram</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">histplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">agent_group</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
+<span class="c1"># add mean line</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">agent_mean_weighted</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'black'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s1">'Mean: </span><span class="si">{</span><span class="n">agent_mean_weighted</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+<span class="c1"># add target line</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'green'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'-'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s1">'Target: </span><span class="si">{</span><span class="n">target</span><span class="si">:</span><span class="s1">.2f</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+<span class="c1"># add +/- std_dev lines (upper and lower spec limits)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">agent_mean_weighted</span> <span class="o">+</span> <span class="n">std_dev_agent</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s2">"+1 SD </span><span class="si">{</span><span class="p">(</span><span class="n">agent_mean_weighted</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">std_dev</span><span class="p">)</span><span class="si">:</span><span class="s2"> .2f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">agent_mean_weighted</span> <span class="o">-</span> <span class="n">std_dev_agent</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'red'</span><span class="p">,</span> <span class="n">linestyle</span><span class="o">=</span><span class="s1">'--'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">f</span><span class="s2">"+1 SD </span><span class="si">{</span><span class="p">(</span><span class="n">agent_mean_weighted</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">std_dev</span><span class="p">)</span><span class="si">:</span><span class="s2"> .2f</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="c1"># add title</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Distribution of CSAT by Agent'</span><span class="p">)</span>
+<span class="c1"># add legend</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
           </pre></div>
           </div>
           </div>
@@ -11386,7 +11386,7 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Top Performing agents: </span>
-          <span class="n">agent_group</span><span class="p">[</span><span class="n">agent_group</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">agent_mean_weighted</span> <span class="o">+</span> <span class="n">std_dev_agent</span> <span class="p">]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">agent_group</span><span class="p">[</span><span class="n">agent_group</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">agent_mean_weighted</span> <span class="o">+</span> <span class="n">std_dev_agent</span> <span class="p">]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
           </pre></div>
           </div>
           </div>
@@ -11507,7 +11507,7 @@
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Low performing agents: </span>
           
-          <span class="n">agent_group</span><span class="p">[</span><span class="n">agent_group</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">agent_mean_weighted</span> <span class="o">-</span> <span class="n">std_dev_agent</span> <span class="p">]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">agent_group</span><span class="p">[</span><span class="n">agent_group</span><span class="p">[</span><span class="s1">'csat_percent'</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">agent_mean_weighted</span> <span class="o">-</span> <span class="n">std_dev_agent</span> <span class="p">]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'csat_percent'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
           </pre></div>
           </div>
           </div>
@@ -11627,7 +11627,7 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Calculate the variance within the results for CSAT by supervisors</span>
-          <span class="nb">round</span><span class="p">((</span><span class="n">std_dev_agent</span><span class="o">*</span><span class="mi">6</span><span class="p">)</span> <span class="o">/</span> <span class="n">agent_mean_weighted</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="nb">round</span><span class="p">((</span><span class="n">std_dev_agent</span><span class="o">*</span><span class="mi">6</span><span class="p">)</span> <span class="o">/</span> <span class="n">agent_mean_weighted</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
           </pre></div>
           </div>
           </div>
@@ -11851,7 +11851,7 @@
           <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
           <div class="cm-editor cm-s-jupyter">
           <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Export dataset to import into power bi</span>
-          <span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="s1">'shopzilla.xlsx'</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">e_commerce_standard_df</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="s1">'shopzilla.xlsx'</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
           </pre></div>
           </div>
           </div>
